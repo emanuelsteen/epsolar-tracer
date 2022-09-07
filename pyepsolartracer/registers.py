@@ -395,6 +395,10 @@ Register("Carbon dioxide reduction L",
 Register("Carbon dioxide reduction H",
   0x3315, "Carbon dioxide reduction H",
   Ton, 100 ),
+# Battery Voltage
+Register("Battery Voltage",
+  0x331A, "The battery voltage.",
+  V, 100 ),
 # Battery Current
 Register("Battery Current",
   0x331B, "The net battery current,charging current minus the discharging one. The positive value represents charging and negative, discharging.",
